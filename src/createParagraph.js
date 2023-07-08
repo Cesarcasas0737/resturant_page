@@ -3,5 +3,4 @@ function createParagraph(text) {
     paragraph.textContent = text;
     return paragraph;
   }
-
   export default createParagraph;
