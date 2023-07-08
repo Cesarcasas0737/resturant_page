@@ -10,6 +10,62 @@ function createMenu(){
         )
     );
 
+    menu.appendChild(
+        createMenuItem(
+            "maewoonbulgogi",
+            "매운 불고기",
+            "Thinly sliced ribeye beef marinated in specially formulated spicy house sauce"
+        )
+    );
+    
+    menu.appendChild(
+        createMenuItem(
+            "saeng bulgogi",
+            "생불고기",
+            "Thinly sliced unseasoned ribeye beef"
+        )
+    );
+
+    menu.appendChild(
+        createMenuItem(
+            "anhshim",
+            "안심",
+            "Thick sliced unseasoned ribeye steak Limited to 1 order per round"
+        )
+    );
+
+    menu.appendChild(
+        createMenuItem(
+            "chadol baegi",
+            "차돌 베기",
+            "Thinly sliced unseasoned beef brisket"
+        )
+    );
+
+    menu.appendChild(
+        createMenuItem(
+            "wugyupsal",
+            "우겹살",
+            "Thinly sliced unseasoned beef belly"
+        )
+    );
+
+    menu.appendChild(
+        createMenuItem(
+            "dwaeji bulgogi",
+            "돼지 불고기",
+            "Sliced tender pork shoulder marinated in specially formulated spicy house sauce"
+        )
+    );
+
+    menu.appendChild(
+        createMenuItem(
+            "samgyeobsal",
+            "삼겹살",
+            "Sliced unseasoned prime pork belly"
+        )
+    );
+
     return menu;
 }
 
