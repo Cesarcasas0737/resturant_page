@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Roboto+Slab&family=Ysabeau+Office:wght@700&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+ h1{
+    font-family: 'Ysabeau Office', sans-serif;
+ }
+ h2{
+    font-family: 'Gowun Batang', serif;
+}
