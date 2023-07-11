@@ -3,14 +3,20 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
-    
 }
 
 :root{
     --main-content-image-length: 600px;
 }
 
- h2{
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+
+h2{
     font-family: 'Gowun Batang', serif;
 }
 
@@ -18,28 +24,52 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    outline: solid blue 5px;
+    background-color: black;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
 
 }
 .restaurant-name{
     font-family: 'Ysabeau Office', sans-serif;
+    font-size: 100px;
+    color: white;
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 500px;
+    width: 80vw;
     height: 100px;
-    outline: solid red 2px;
+    outline: solid red 5px;
 }
 
-#content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
+#main{
+    outline: 5px red solid;
+}
 .home > img{
     height: var(--main-content-image-length);
+    
+}
+.menu{
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+.menu-image{
+    width: 200px;
+    height: 164px;
+    margin-right: 10px;
+}
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 164px;
     
 }
 
