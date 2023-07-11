@@ -40,6 +40,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 80vw;
     height: 100px;
     outline: solid red 5px;
@@ -75,4 +76,20 @@ nav{
 
 .contact > img{
     height: var(--main-content-image-length);
+}
+
+button {
+    all: unset;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    height: 40px;
+}
+
+button:hover{
+    border-bottom: 2px solid grey;
+}
+
+button:active{
+    border-bottom: 2px solid white;
 }
