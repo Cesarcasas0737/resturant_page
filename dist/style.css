@@ -4,7 +4,9 @@
     padding: 0;
     font-family: 'Roboto Slab', serif;
 }
-
+body{
+    background-color: #0f172a;
+}
 :root{
     --main-content-image-length: 600px;
 }
@@ -13,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
+    
 }
 
 h2{
@@ -25,7 +27,7 @@ h2{
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    outline: solid blue 5px;
+    
     background-color: black;
     padding-bottom: 20px;
     margin-bottom: 40px;
@@ -43,12 +45,12 @@ nav{
     align-items: center;
     width: 80vw;
     height: 100px;
-    outline: solid red 5px;
+    
 }
 
 
 #main{
-    outline: 5px red solid;
+   background-color: #e5e7eb;
 }
 .home > img{
     height: var(--main-content-image-length);
@@ -71,6 +73,7 @@ nav{
     flex-direction: row;
     width: 400px;
     height: 164px;
+    background-color: #e5e7eb;
     
 }
 
@@ -78,6 +81,9 @@ nav{
     height: var(--main-content-image-length);
 }
 
+footer{
+
+}
 button {
     all: unset;
     color: white;
